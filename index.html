@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="dino"></div>
-        <div id="cactus"></div>
-        <div id="score">النقاط: 0</div>
+    <div class="game-container">
+        <p class="instructions">اضغط على المسافة للقفز 🦖</p>
+        <canvas id="gameCanvas"></canvas>
+        <p id="gameOver" class="hidden">💥 خسرت! اضغط على "المسافة" لإعادة التشغيل 🔄</p>
     </div>
-    <button id="jumpBtn">قفز</button>
     <script src="script.js"></script>
 </body>
 </html>
